@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<root>
+  <!-- KeyRemap4MacBook config file -->
+
+  <symbol_map type="KeyCode" name="SECTION_SIGN_AND_PLUS_MINUS" value="0x0a" />
+  <symbol_map type="KeyCode" name="BACK_QUOTE_AND_TILDE" value="0x32" />
+
+  <item>
+    <name>Put Tilda to Where It Should Be</name>
+    <identifier>private.put_tilda_to_where_it_should_be</identifier>
+    <autogen>--KeyToKey-- KeyCode::BACK_QUOTE_AND_TILDE, KeyCode::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::SECTION_SIGN_AND_PLUS_MINUS, KeyCode::BACK_QUOTE_AND_TILDE</autogen>
+  </item>
+</root>
